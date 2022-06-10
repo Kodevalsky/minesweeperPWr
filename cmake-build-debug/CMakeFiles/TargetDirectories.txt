@@ -1,0 +1,5 @@
+C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/minesweeperqt.dir
+C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/minesweeperqt_autogen_timestamp_deps.dir
+C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/minesweeperqt_autogen.dir
