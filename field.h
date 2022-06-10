@@ -10,7 +10,7 @@ class field {
 private:
     bool visibilityStatus = false;
     bool flagStatus = false;
-    bool mineStatus = false;
+    bool bombStatus = false;
     int value;
     int bombValue = 0;
 public:
@@ -22,7 +22,11 @@ public:
     bool isFlagged();
     bool isVisible();
     int giveBombValue();
-
+    void serialReveal(field ** board);
+    int x;
+    int y;
+    void bombSetup();
+    bool giveBombStatus();
 };
 
 

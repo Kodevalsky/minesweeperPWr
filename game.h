@@ -18,7 +18,7 @@ public:
     int getFieldValue(int x, int y);
     void wyswietlenie();
     void clearSpace();
-
+    field ** giveBoard();
 };
 
 

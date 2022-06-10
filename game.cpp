@@ -16,6 +16,9 @@ game::game(int dimVertical, int dimHorizontal){
     for (int i = 0; i < dimVertical; i++) {
         for (int j = 0; j < dimHorizontal; j++) {
             board[i][j].setValue(index++);
+            board[i][j].x = i;
+            board[i][j].y = j;
+
         }
     }
 
@@ -56,4 +59,8 @@ void game::clearSpace(){
     for(int i = 0; i < 50; i++){
         std::cout << std::endl;
     }
+}
+
+field ** game::giveBoard(){
+    return board;
 }
