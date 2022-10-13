@@ -76,17 +76,25 @@ build CMakeFiles/minesweeperqt.dir/main.cpp.obj: CXX_COMPILER__minesweeperqt_Deb
   OBJECT_DIR = CMakeFiles\minesweeperqt.dir
   OBJECT_FILE_DIR = CMakeFiles\minesweeperqt.dir
 
-build CMakeFiles/minesweeperqt.dir/field.cpp.obj: CXX_COMPILER__minesweeperqt_Debug C$:/Users/jerem/CLionProjects/minesweeperqt/field.cpp || cmake_object_order_depends_target_minesweeperqt
+build CMakeFiles/minesweeperqt.dir/cField.cpp.obj: CXX_COMPILER__minesweeperqt_Debug C$:/Users/jerem/CLionProjects/minesweeperqt/cField.cpp || cmake_object_order_depends_target_minesweeperqt
   DEFINES = -DQT_CORE_LIB
-  DEP_FILE = CMakeFiles\minesweeperqt.dir\field.cpp.obj.d
+  DEP_FILE = CMakeFiles\minesweeperqt.dir\cField.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -IC:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/minesweeperqt_autogen/include -isystem C:/Qt/5.15.2/mingw81_64/include -isystem C:/Qt/5.15.2/mingw81_64/include/QtCore -isystem C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++
   OBJECT_DIR = CMakeFiles\minesweeperqt.dir
   OBJECT_FILE_DIR = CMakeFiles\minesweeperqt.dir
 
-build CMakeFiles/minesweeperqt.dir/game.cpp.obj: CXX_COMPILER__minesweeperqt_Debug C$:/Users/jerem/CLionProjects/minesweeperqt/game.cpp || cmake_object_order_depends_target_minesweeperqt
+build CMakeFiles/minesweeperqt.dir/cGame.cpp.obj: CXX_COMPILER__minesweeperqt_Debug C$:/Users/jerem/CLionProjects/minesweeperqt/cGame.cpp || cmake_object_order_depends_target_minesweeperqt
   DEFINES = -DQT_CORE_LIB
-  DEP_FILE = CMakeFiles\minesweeperqt.dir\game.cpp.obj.d
+  DEP_FILE = CMakeFiles\minesweeperqt.dir\cGame.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/minesweeperqt_autogen/include -isystem C:/Qt/5.15.2/mingw81_64/include -isystem C:/Qt/5.15.2/mingw81_64/include/QtCore -isystem C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\minesweeperqt.dir
+  OBJECT_FILE_DIR = CMakeFiles\minesweeperqt.dir
+
+build CMakeFiles/minesweeperqt.dir/cParentGame.cpp.obj: CXX_COMPILER__minesweeperqt_Debug C$:/Users/jerem/CLionProjects/minesweeperqt/cParentGame.cpp || cmake_object_order_depends_target_minesweeperqt
+  DEFINES = -DQT_CORE_LIB
+  DEP_FILE = CMakeFiles\minesweeperqt.dir\cParentGame.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -IC:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/minesweeperqt_autogen/include -isystem C:/Qt/5.15.2/mingw81_64/include -isystem C:/Qt/5.15.2/mingw81_64/include/QtCore -isystem C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++
   OBJECT_DIR = CMakeFiles\minesweeperqt.dir
@@ -100,7 +108,7 @@ build CMakeFiles/minesweeperqt.dir/game.cpp.obj: CXX_COMPILER__minesweeperqt_Deb
 #############################################
 # Link the executable minesweeperqt.exe
 
-build minesweeperqt.exe: CXX_EXECUTABLE_LINKER__minesweeperqt_Debug CMakeFiles/minesweeperqt.dir/minesweeperqt_autogen/mocs_compilation.cpp.obj CMakeFiles/minesweeperqt.dir/main.cpp.obj CMakeFiles/minesweeperqt.dir/field.cpp.obj CMakeFiles/minesweeperqt.dir/game.cpp.obj | C$:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a || minesweeperqt_autogen minesweeperqt_autogen_timestamp_deps
+build minesweeperqt.exe: CXX_EXECUTABLE_LINKER__minesweeperqt_Debug CMakeFiles/minesweeperqt.dir/minesweeperqt_autogen/mocs_compilation.cpp.obj CMakeFiles/minesweeperqt.dir/main.cpp.obj CMakeFiles/minesweeperqt.dir/cField.cpp.obj CMakeFiles/minesweeperqt.dir/cGame.cpp.obj CMakeFiles/minesweeperqt.dir/cParentGame.cpp.obj | C$:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a || minesweeperqt_autogen minesweeperqt_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = C:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\minesweeperqt.dir

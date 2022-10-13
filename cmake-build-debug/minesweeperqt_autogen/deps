@@ -30,13 +30,15 @@ minesweeperqt_autogen/timestamp: \
 	C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
 	C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
 	C:/Users/jerem/CLionProjects/minesweeperqt/CMakeLists.txt \
+	C:/Users/jerem/CLionProjects/minesweeperqt/cField.cpp \
+	C:/Users/jerem/CLionProjects/minesweeperqt/cField.h \
+	C:/Users/jerem/CLionProjects/minesweeperqt/cGame.cpp \
+	C:/Users/jerem/CLionProjects/minesweeperqt/cGame.h \
+	C:/Users/jerem/CLionProjects/minesweeperqt/cParentGame.cpp \
+	C:/Users/jerem/CLionProjects/minesweeperqt/cParentGame.h \
 	C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake \
 	C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
 	C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake \
 	C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake \
-	C:/Users/jerem/CLionProjects/minesweeperqt/field.cpp \
-	C:/Users/jerem/CLionProjects/minesweeperqt/field.h \
-	C:/Users/jerem/CLionProjects/minesweeperqt/game.cpp \
-	C:/Users/jerem/CLionProjects/minesweeperqt/game.h \
 	C:/Users/jerem/CLionProjects/minesweeperqt/main.cpp \
 	C:/Program\ Files/JetBrains/CLion\ 2021.3/bin/cmake/win/bin/cmake.exe

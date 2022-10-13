@@ -30,13 +30,15 @@ minesweeperqt_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
   C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
   ../CMakeLists.txt \
+  ../cField.cpp \
+  ../cField.h \
+  ../cGame.cpp \
+  ../cGame.h \
+  ../cParentGame.cpp \
+  ../cParentGame.h \
   CMakeFiles/3.21.1/CMakeCCompiler.cmake \
   CMakeFiles/3.21.1/CMakeCXXCompiler.cmake \
   CMakeFiles/3.21.1/CMakeRCCompiler.cmake \
   CMakeFiles/3.21.1/CMakeSystem.cmake \
-  ../field.cpp \
-  ../field.h \
-  ../game.cpp \
-  ../game.h \
   ../main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2021.3/bin/cmake/win/bin/cmake.exe

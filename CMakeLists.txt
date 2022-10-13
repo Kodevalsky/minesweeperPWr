@@ -12,7 +12,7 @@ find_package(Qt5 COMPONENTS
         Core
         REQUIRED)
 
-add_executable(minesweeperqt main.cpp field.cpp game.cpp )
+add_executable(minesweeperqt main.cpp cField.cpp cGame.cpp cParentGame.cpp)
 target_link_libraries(minesweeperqt
         Qt5::Core
         )

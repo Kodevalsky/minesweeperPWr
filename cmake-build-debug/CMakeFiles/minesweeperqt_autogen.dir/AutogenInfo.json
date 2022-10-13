@@ -52,15 +52,21 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/jerem/CLionProjects/minesweeperqt/field.h",
+			"C:/Users/jerem/CLionProjects/minesweeperqt/cField.h",
 			"MU",
-			"EWIEGA46WW/moc_field.cpp",
+			"EWIEGA46WW/moc_cField.cpp",
 			null
 		],
 		[
-			"C:/Users/jerem/CLionProjects/minesweeperqt/game.h",
+			"C:/Users/jerem/CLionProjects/minesweeperqt/cGame.h",
 			"MU",
-			"EWIEGA46WW/moc_game.cpp",
+			"EWIEGA46WW/moc_cGame.cpp",
+			null
+		],
+		[
+			"C:/Users/jerem/CLionProjects/minesweeperqt/cParentGame.h",
+			"MU",
+			"EWIEGA46WW/moc_cParentGame.cpp",
 			null
 		]
 	],
@@ -112,8 +118,13 @@
 	"SETTINGS_FILE" : "C:/Users/jerem/CLionProjects/minesweeperqt/cmake-build-debug/CMakeFiles/minesweeperqt_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/jerem/CLionProjects/minesweeperqt/field.cpp", "MU", null ],
-		[ "C:/Users/jerem/CLionProjects/minesweeperqt/game.cpp", "MU", null ],
+		[ "C:/Users/jerem/CLionProjects/minesweeperqt/cField.cpp", "MU", null ],
+		[ "C:/Users/jerem/CLionProjects/minesweeperqt/cGame.cpp", "MU", null ],
+		[
+			"C:/Users/jerem/CLionProjects/minesweeperqt/cParentGame.cpp",
+			"MU",
+			null
+		],
 		[ "C:/Users/jerem/CLionProjects/minesweeperqt/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
